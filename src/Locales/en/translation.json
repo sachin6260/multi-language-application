@@ -1,0 +1,25 @@
+{
+    "welcome": "Welcome to Our Website!",
+    "description": "We offer content in both English and Hindi.",
+    "aboutTitle": "About Us",
+    "welcomeMessage": "Welcome to Our Multi-Language Website",
+    "whyMultiLanguage": "Why Multi-Language?",
+    "multiLanguageExplanation": "Language connects us to different cultures.",
+    "features": "Features of Our Website:",
+    "languageSwitcher": "Language Switcher: Easily switch between English and Hindi.",
+    "richContent": "Rich Content: Explore content in both languages.",
+    "userFriendlyInterface": "User-Friendly Interface: Simple and easy to navigate.",
+    "responsiveDesign": "Responsive Design: Access from any device.",
+    "mission": "Our Mission",
+    "missionStatement": "We aim to make information accessible to everyone.",
+    "thankYou": "Thank you for visiting our website!",
+    "footer": {
+      "contactUs": "Contact Us",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "followUs": "Follow Us",
+      "address": "1234 Main Street, Anytown, USA",
+      "email": "contact@ourwebsite.com"
+    }
+  }
+  

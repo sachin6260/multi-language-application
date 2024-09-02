@@ -1,0 +1,78 @@
+/* Color Scheme */
+:root {
+    --background-color: #131324; /* Dark background color */
+    --text-color: white;         /* White text color */
+    --button-bg-color: #4e0eff;  /* Button background color */
+    --button-border-color: #997af0; /* Button border color */
+    --button-border-radius: 0.4rem; /* Button border radius */
+  }
+  
+  /* Header Container */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-bottom: 1px solid var(--button-border-color);
+  }
+  
+  
+  /* Header Left */
+  .header-left {
+    flex: 1;
+  }
+  
+ 
+  .logos {
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    font-size: 2rem; /* Adjust size based on your design */
+    font-weight: bold; /* Ensure the text is bold */
+    color: #5f4b97; /* Use the primary color of your website */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    letter-spacing: 1px; /* Slightly increase spacing between letters */
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow for better visibility */
+  }
+  
+  /* Header Center */
+  .header-center {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header-center a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+  
+  .header-center a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Right */
+  .header-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .language-btn {
+    background-color: var(--button-bg-color);
+    border: 0.1rem solid var(--button-border-color);
+    border-radius: var(--button-border-radius);
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem; /* Adjust as needed */
+  }
+  
+  .language-btn:hover {
+    background-color: #3b1f8f; /* Darker shade for hover effect */
+  }
+  
